@@ -12,7 +12,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
   - [Built with](#built-with)
 - [Author](#author)
 
-## Overview
+- ## Overview
 
 ### The challenge
 
