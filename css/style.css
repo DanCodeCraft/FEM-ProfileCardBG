@@ -30,24 +30,12 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-}
 
-/* BACKGROUND */
-.background__top,
-.background__bottom {
-  position: absolute;
-  z-index: -1;
-  width: 70%;
-}
-
-.background__top {
-  top: -50%;
-  left: -20%;
-}
-
-.background__bottom {
-  top: 50%;
-  right: -25%;
+  background-color: var(--cyan);
+  background-image: url(/images/bg-pattern-top.svg),
+    url(/images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 52vw bottom 35vh, left 48vw top 52vh;
 }
 
 /* CARD */
@@ -140,22 +128,4 @@ body {
 
 .footer a {
   color: var(--white);
-}
-
-/* MEDIA QUERY */
-@media (max-width: 52em) {
-  .background__top,
-  .background__bottom {
-    width: 90%;
-  }
-
-  .background__top {
-    top: -30%;
-    left: -40%;
-  }
-
-  .background__bottom {
-    top: 60%;
-    right: -40%;
-  }
 }
